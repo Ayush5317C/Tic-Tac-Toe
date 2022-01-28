@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="typingTest.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="paragraphContainer"></div>
+            <input type="text" class="inputText">
+            <div class="typingInfo">
+                <div class="time">Time : 60s</div>
+                <div class="cpm">CPM : 0</div>
+                <div class="wpm">WPM : 0</div>
+                <div class="accuracy">Accuracy : 100%</div>
+            </div>
+        </div>
+        <div class="endMenu">
+            <h1 class="completed">Completed !!</h1>
+            <div class="results">
+                <h2 id="typingSpeed">Typing Speed : </h2>
+                <h2 id="acc">Accuracy : </h2>
+                <h2 id="hscore">Highscore : </h2>
+                <button id="restart" onclick="restart()">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="typingTest.js"></script>
+    <script src="endMenuController.js"></script>
+</body>
+
+</html>
